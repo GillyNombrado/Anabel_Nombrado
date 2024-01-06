@@ -240,10 +240,24 @@
   font-size: 1.3rem;
 }
 .casual__text h1 {
-
+  font-weight: 1000;
+  font-size: 3rem;
+  padding-bottom: 2rem;
 }
-
-
+.casual__text p {
+  font-size: 1.4rem;
+    padding-bottom: 1rem;
+}
+.casual__img {
+  padding: 1rem 1rem 1rem 1rem;
+  width: 175%;
+}
+.casual__text a {
+  display: grid;
+  justify-content: center;
+  background-color: rgb(31, 54, 54);
+  color: white;
+}
 
 /*COMBINE*/
 .combine {
@@ -256,6 +270,25 @@
   color: red;
   font-weight: 800;
   font-size: 1.3rem;
+}
+.combine__text h1 {
+  font-weight: 1000;
+  font-size: 3rem;
+  padding-bottom: 2rem;
+}
+.combine__text p {
+  font-size: 1.4rem;
+    padding-bottom: 1rem;
+}
+.combine__img {
+  padding: 1rem 1rem 1rem 1rem;
+  width: 175%;
+}
+.combine__text a {
+  display: grid;
+  justify-content: center;
+  background-color: rgb(31, 54, 54);
+  color: white;
 }
 
 /*FOOTER*/
