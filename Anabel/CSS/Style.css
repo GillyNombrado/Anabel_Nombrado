@@ -311,4 +311,29 @@
 .footer__wrapper {
 display: flex;
 }
+.footer__img a {
+  padding-bottom: 2rem;
+    width: 15rem;
+    height: 6rem;
+}
 
+@media screen and (max-width:640px) {
+  .header {
+    margin: auto;
+  }
+  .casual {
+    margin: auto;
+  }
+  .chance {
+    margin: auto;
+  }
+  .combine {
+    margin: auto;
+  }
+  .footer {
+    margin: auto;
+  }
+  .special {
+    margin: auto;
+  }
+}
