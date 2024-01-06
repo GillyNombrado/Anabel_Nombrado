@@ -193,7 +193,7 @@
     margin-left: 1rem;
     margin-right: 1rem;
   }
-.special__text h1 {
+  .special__text h1 {
     display: grid;
     justify-content: center;
     color: white;
@@ -202,13 +202,13 @@
     font-weight: 1000;
     font-size: 3rem;
 }
-.special__text h3 {
+  .special__text h3 {
     display: grid;
     text-align: center;
     color: white;
     padding-bottom: 1rem;
 }
-.special__btn {
+  .special__btn {
     display: grid;
     justify-content: center;
     background-color: white;
@@ -216,7 +216,7 @@
     margin-right: 22rem;
     margin-bottom: 2rem;
 }
-.special__btn a {
+  .special__btn a {
     color: red;
     font-size: 1.2rem;
     font-weight: 600;
@@ -228,15 +228,41 @@
 .casual {
     margin: 0rem 35rem 0rem 35rem ;
 }
+.casual__wrapper {
+  display: flex;
+}
+.casual__text {
+  padding: 2rem 1rem 1rem 1rem;
+}
+.casual__text h5 {
+  color: red;
+  font-weight: 800;
+  font-size: 1.3rem;
+}
+.casual__text h1 {
+
+}
+
 
 
 /*COMBINE*/
 .combine {
     margin: 0rem 35rem 0rem 35rem ;
 }
+.combine__wrapper {
+  display: flex;
+}
+.combine__text h5 {
+  color: red;
+  font-weight: 800;
+  font-size: 1.3rem;
+}
 
 /*FOOTER*/
 .footer {
     margin: 0rem 35rem 0rem 35rem ;
     background-color: #2b2b2b;
+}
+.footer__wrapper {
+display: flex;
 }
