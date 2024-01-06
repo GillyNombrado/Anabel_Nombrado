@@ -249,7 +249,7 @@
     padding-bottom: 1rem;
 }
 .casual__img {
-  padding: 1rem 1rem 1rem 1rem;
+  padding: 3rem 3rem 3rem 3rem;
   width: 175%;
 }
 .casual__text a {
@@ -257,6 +257,12 @@
   justify-content: center;
   background-color: rgb(31, 54, 54);
   color: white;
+  font-weight: 800;
+  font-size: 1.3rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 /*COMBINE*/
@@ -278,17 +284,23 @@
 }
 .combine__text p {
   font-size: 1.4rem;
-    padding-bottom: 1rem;
+  padding-bottom: 1rem;
 }
 .combine__img {
-  padding: 1rem 1rem 1rem 1rem;
+  padding: 3rem 3rem 3rem 3rem;
   width: 175%;
 }
 .combine__text a {
-  display: grid;
+  display: flex;
   justify-content: center;
   background-color: rgb(31, 54, 54);
   color: white;
+  font-weight: 800;
+  font-size: 1.3rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 /*FOOTER*/
@@ -299,3 +311,4 @@
 .footer__wrapper {
 display: flex;
 }
+
